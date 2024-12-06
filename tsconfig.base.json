@@ -15,7 +15,31 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@car-dashboard-shared/web": ["libs/web/src/index.ts"]
+      "@car-dashboard-shared/data-access-layout": [
+        "libs/web/layout/data-access/src/index.ts"
+      ],
+      "@car-dashboard-shared/feature-dashboard": [
+        "libs/web/dashboard/feature/dashboard/src/index.ts"
+      ],
+      "@car-dashboard-shared/feature-layout": [
+        "libs/web/layout/feature/layout/src/index.ts"
+      ],
+      "@car-dashboard-shared/feature-shell": [
+        "libs/web/shell/feature/shell/src/index.ts"
+      ],
+      "@car-dashboard-shared/ui-main-view": [
+        "libs/web/layout/ui/main-view/src/index.ts"
+      ],
+      "@car-dashboard-shared/ui-menu": ["libs/web/layout/ui/menu/src/index.ts"],
+      "@car-dashboard-shared/ui-menu-item": [
+        "libs/web/layout/ui/menu-item/src/index.ts"
+      ],
+      "@car-dashboard-shared/ui-side-bar": [
+        "libs/web/layout/ui/side-bar/src/index.ts"
+      ],
+      "@car-dashboard-shared/ui-top-bar": [
+        "libs/web/layout/ui/top-bar/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
